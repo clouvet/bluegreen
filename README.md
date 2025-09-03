@@ -1,10 +1,10 @@
-Bluegreen Deployment Example
+# Bluegreen Deployment Example
 
 This repository contains a basic Phoenix application that demonstrates how to deploy to Fly.io using the blue-green deployment strategy. This strategy allows you to release new versions of your app with zero downtime by running two environments (blue and green) side by side and switching traffic between them.
 
 ⸻
 
-Running Locally
+## Running Locally
 
 To start the Phoenix server locally:
 1.	Install and set up dependencies:
@@ -29,14 +29,14 @@ iex -S mix phx.server
 
 ⸻
 
-Deploying to Production
+## Deploying to Production
 
 When you’re ready to deploy, check out the official Phoenix deployment guides.
 For Fly.io-specific instructions and examples of blue-green deployment, see the Fly.io documentation.
 
 ⸻
 
-Additional Resources:
+## Additional Resources:
 - Phoenix
 - Website: phoenixframework.org
 - Guides: hexdocs.pm/phoenix/overview.html
