@@ -1,22 +1,44 @@
-# Bluegreen
+Bluegreen Deployment Example
 
-This is a basic Phoenix app to demonstrate deploying to Fly.io with the bluegreen strategy. 
+This repository contains a basic Phoenix application that demonstrates how to deploy to Fly.io using the blue-green deployment strategy. This strategy allows you to release new versions of your app with zero downtime by running two environments (blue and green) side by side and switching traffic between them.
 
-----
+⸻
 
-To start your Phoenix server:
+Running Locally
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+To start the Phoenix server locally:
+	1.	Install and set up dependencies:
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+mix setup
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-## Learn more
+	2.	Start the Phoenix endpoint:
 
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+mix phx.server
+
+Or start it inside IEx for an interactive shell:
+
+iex -S mix phx.server
+
+
+	3.	Open your browser and visit: http://localhost:4000
+
+⸻
+
+Deploying to Production
+
+When you’re ready to deploy, check out the official Phoenix deployment guides.
+For Fly.io-specific instructions and examples of blue-green deployment, see the Fly.io documentation.
+
+⸻
+
+Additional Resources
+	•	Phoenix
+	•	Website: phoenixframework.org
+	•	Guides: hexdocs.pm/phoenix/overview.html
+	•	API Docs: hexdocs.pm/phoenix
+	•	Community Forum: Elixir Forum (Phoenix section)
+	•	Source Code: GitHub – phoenixframework/phoenix
+	•	Fly.io
+	•	Website: fly.io
+	•	Docs: fly.io/docs
