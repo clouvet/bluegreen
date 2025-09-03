@@ -7,21 +7,25 @@ This repository contains a basic Phoenix application that demonstrates how to de
 Running Locally
 
 To start the Phoenix server locally:
-	1.	Install and set up dependencies:
+1.	Install and set up dependencies:
 
+```bash
 mix setup
+```
 
+2.	Start the Phoenix endpoint:
 
-	2.	Start the Phoenix endpoint:
-
+```bash
 mix phx.server
+```
 
 Or start it inside IEx for an interactive shell:
 
+```bash
 iex -S mix phx.server
+```
 
-
-	3.	Open your browser and visit: http://localhost:4000
+3.	Open your browser and visit: http://localhost:4000
 
 ⸻
 
@@ -32,13 +36,13 @@ For Fly.io-specific instructions and examples of blue-green deployment, see the 
 
 ⸻
 
-Additional Resources
-	•	Phoenix
-	•	Website: phoenixframework.org
-	•	Guides: hexdocs.pm/phoenix/overview.html
-	•	API Docs: hexdocs.pm/phoenix
-	•	Community Forum: Elixir Forum (Phoenix section)
-	•	Source Code: GitHub – phoenixframework/phoenix
-	•	Fly.io
-	•	Website: fly.io
-	•	Docs: fly.io/docs
+Additional Resources:
+- Phoenix
+- Website: phoenixframework.org
+- Guides: hexdocs.pm/phoenix/overview.html
+- API Docs: hexdocs.pm/phoenix
+- Community Forum: Elixir Forum (Phoenix section)
+- Source Code: GitHub – phoenixframework/phoenix
+- Fly.io
+- Website: fly.io
+- Docs: fly.io/docs
